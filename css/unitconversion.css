@@ -1,0 +1,37 @@
+/* light-initial */
+#light-initial {
+    position: absolute;
+    width: 550px;
+    height: 550px;
+    left: 89px;
+    top: 83px;
+
+    background: #FBF7EE;
+}
+
+#main {
+    position: absolute;
+    width: 550px;
+    height: 260px;
+    left: 0px;
+    top: 0px;
+    background: linear-gradient(246.26deg, #585DFE 0%, #FB3796 100%);
+}
+
+#heading {
+    position: absolute;
+    width: 448.4px;
+    height: 38px;
+    left: 51px;
+    top: 53px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 38px;
+    /* identical to box height, or 173% */
+    text-align: center;
+    letter-spacing: -0.05em;
+    color: #FFFFFF;
+}
+

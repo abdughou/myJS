@@ -1,0 +1,33 @@
+body {
+    background-image:  url();
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#add-btn, #divide-btn, #subtract-btn, #modulus-btn, #multiply-btn {
+    background: gray;
+}
+
