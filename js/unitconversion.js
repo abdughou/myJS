@@ -6,8 +6,8 @@ function length() {
     let metersPerFeet = 0.3048;
     let feetsPerMeter = 3.28084;    
     let heading = "Length Meter/Feet"
-    let meters = val * feetsPerMeter
-    let feets = val * metersPerFeet
+    let meters = (val * metersPerFeet).toFixed(3)
+    let feets = (val * feetsPerMeter).toFixed(3)
     let data = `${val} meters = ${feets} feets | ${val} feets = ${meters} meters`
     heading_length.textContent = heading
     data_length.textContent = data    
@@ -19,8 +19,8 @@ function volume() {
     let litersPerGallon = 3.78541;
     let gallonsPerLiter = 0.264172;      
     let heading = "Volume Liters/Gallons"
-    let gallons = val * gallonsPerLiter
-    let litters = val * litersPerGallon
+    let gallons = (val * gallonsPerLiter).toFixed(3)
+    let litters = (val * litersPerGallon).toFixed(3)
     let data = `${val} gallons = ${litters} litters | ${val} litters = ${gallons} gallons`
     heading_volume.textContent = heading
     data_volume.textContent = data
@@ -29,13 +29,18 @@ function volume() {
 function mass() {
     let heading_mass = document.getElementById("heading-mass")
     let data_mass = document.getElementById("data-mass") 
-    let kgsPerLb = 3.78541;
-    let lbsPerKg = 0.264172;      
+    let kgsPerLb = 0.453592;
+    let lbsPerKg = 2.20462;      
     let heading = "Mass Kilos/Pounds"
-    let kgs = val * kgsPerLb
-    let lbs = val * lbsPerKg
+    let kgs = (val * kgsPerLb).toFixed(3)
+    let lbs = (val * lbsPerKg).toFixed(3)
     let data = `${val} kgs = ${lbs} lbs | ${val} lbs = ${kgs} kgs`
     heading_mass.textContent = heading
     data_mass.textContent = data
+}
 
+function calculate() {
+    length()
+    volume()
+    mass()
 }
