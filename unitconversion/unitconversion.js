@@ -40,6 +40,8 @@ function mass() {
 }
 
 function calculate() {
+    console.log(document.getElementById("input-field").value)
+    val = parseInt(document.getElementById("input-field").value)
     length()
     volume()
     mass()
