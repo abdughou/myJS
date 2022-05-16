@@ -1,0 +1,25 @@
+body {
+    color: white;
+    background-image: url("images/galaxy.webp");
+    background-size: cover;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.btn {
+    padding: 6px 12px;
+    background: white;
+    font-family: inherit;
+    border-radius: 5px;
+    width: 100px;
+    font-size: large;
+}
+
+.underline {
+    border-bottom: 3px solid #A3Bc71;
+    padding: 5px 10px;
+}
+
+#logo {
+    width: 200px;
+}

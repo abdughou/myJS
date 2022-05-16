@@ -1,5 +1,6 @@
 body {
     margin: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .avatar {
@@ -9,15 +10,15 @@ body {
 
 .card {
     width: 800px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     display: flex;
     padding: 20px;
     justify-content: space-around;
     text-align: center;
     background: #ddebf8;
     color: #2b2839;
-    border-bottom: 10px solid #d8cefe;
+    border-top: 10px solid #d8cefe;
+    border-radius: 10px;
 }
 
 .border-blue {
