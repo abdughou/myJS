@@ -1,0 +1,31 @@
+.card {
+    color: #222222;
+    background: lightgray;
+    width: 300px;
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+    border: 3px solid gray;
+    border-radius: 10px;
+
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.mybtn {
+        color: #0f1419;
+        border: 1px solid #cfd9de;
+        border-radius: 20px;
+        background: white;
+        padding-top: 8px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-weight: bold;
+
+}

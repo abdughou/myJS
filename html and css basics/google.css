@@ -1,0 +1,46 @@
+.main {
+    margin-top: 100px;
+}
+
+.logo-img {
+    display: block;
+    width: 300px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.search-input {
+    display: block;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+
+    line-height: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    border-radius: 10px;
+    border: 1px solid #cfd9de;
+}
+
+.btns-container {
+    display: flex;
+    justify-content: center;
+}
+
+.mybtn {
+    margin-top: 20px;
+    background: #dfe1e5;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 4px;
+    font-size: 24px;
+    margin-left: 10px;
+    margin-right: 10px;
+}

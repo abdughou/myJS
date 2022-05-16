@@ -100,7 +100,7 @@ let fruit = ['🍎','🍎','🍊','🍎','🍎','🍊','🍊','🍊','🍎','�
 let appleShelf = document.getElementById("apple-shelf");
 let oragneShelf = document.getElementById("orange-shelf");
 
-function arrnage() {
+function sortFruit() {
     for (i=0;i<fruit.length;i++) {
         if (fruit[i] === '🍎') {
             appleShelf.textContent += fruit[i]
@@ -112,4 +112,4 @@ function arrnage() {
     }
 }
 
-arrnage();
+sortFruit();
