@@ -1,9 +1,14 @@
 body {
-    color: white;
-    background-image: url("images/galaxy.webp");
-    background-size: cover;
+    margin: 0px;
     text-align: center;
     font-family: 'Orbitron', sans-serif;
+    color: #82a5ca    
+}
+
+#main {
+    background-image: url("images/galaxy.webp");
+    background-size: cover;
+    padding: 40px 0px;
 }
 
 .btn {
@@ -13,13 +18,18 @@ body {
     border-radius: 5px;
     width: 100px;
     font-size: large;
+    font-weight: bold;
+    color: inherit
 }
 
 .underline {
-    border-bottom: 3px solid #A3Bc71;
-    padding: 5px 10px;
+    border-bottom: 4px solid rgb(255, 255, 255);
 }
 
 #logo {
     width: 200px;
+}
+
+.shadow {
+    text-shadow: 0px 0px 5px black; 
 }
